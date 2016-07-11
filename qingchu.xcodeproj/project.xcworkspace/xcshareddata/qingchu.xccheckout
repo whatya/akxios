@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>BB21931A-F396-4C8E-AAC0-646E8F27E113</string>
+	<key>IDESourceControlProjectName</key>
+	<string>qingchu</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>79419466E426407F1FF787DC0D42F24E5BFA81E0</key>
+		<string>https://git.oschina.net/chenie0561/chunhui_ios.git</string>
+		<key>877828CF70153CC32F132F0878841A3165D7261E</key>
+		<string>120.26.216.28:IOS/akx_ios.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>qingchu.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>79419466E426407F1FF787DC0D42F24E5BFA81E0</key>
+		<string>../../../qingchu_new</string>
+		<key>877828CF70153CC32F132F0878841A3165D7261E</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>120.26.216.28:IOS/akx_ios.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>877828CF70153CC32F132F0878841A3165D7261E</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>877828CF70153CC32F132F0878841A3165D7261E</string>
+			<key>IDESourceControlWCCName</key>
+			<string>AKX_IOS</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>79419466E426407F1FF787DC0D42F24E5BFA81E0</string>
+			<key>IDESourceControlWCCName</key>
+			<string>qingchu_new</string>
+		</dict>
+	</array>
+</dict>
+</plist>

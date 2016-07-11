@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="PopUpView">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view alpha="0.59999999999999964" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6aF-Ls-tul">
+                    <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                    <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5Dc-hv-3ao">
+                    <rect key="frame" x="8" y="256" width="584" height="89"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Something is going wrong!" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8Q7-N3-W3N">
+                            <rect key="frame" x="8" y="16" width="568" height="21"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <view alpha="0.69999999999999973" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5Ng-uG-wul">
+                            <rect key="frame" x="8" y="45" width="568" height="1"/>
+                            <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="1" id="cDV-gA-exC"/>
+                            </constraints>
+                        </view>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="u5p-LE-H60">
+                            <rect key="frame" x="8" y="54" width="568" height="33"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <state key="normal" title="确定">
+                                <color key="titleColor" red="0.90980392160000001" green="0.18823529410000001" blue="0.20392156859999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="sure:" destination="iN0-l3-epB" eventType="touchUpInside" id="vWW-QH-zwI"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" red="0.96078431372549022" green="0.96078431372549022" blue="0.96078431372549022" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <gestureRecognizers/>
+                    <constraints>
+                        <constraint firstItem="5Ng-uG-wul" firstAttribute="top" secondItem="8Q7-N3-W3N" secondAttribute="bottom" constant="8" id="7Vd-yk-blr"/>
+                        <constraint firstAttribute="height" constant="160" id="FZv-8G-cmt"/>
+                        <constraint firstItem="8Q7-N3-W3N" firstAttribute="top" secondItem="5Dc-hv-3ao" secondAttribute="top" constant="16" id="VeW-Se-I1g"/>
+                        <constraint firstItem="u5p-LE-H60" firstAttribute="top" secondItem="5Ng-uG-wul" secondAttribute="bottom" constant="8" id="cKu-Wd-6Yc"/>
+                        <constraint firstAttribute="trailing" secondItem="5Ng-uG-wul" secondAttribute="trailing" constant="8" id="e6M-YL-lo0"/>
+                        <constraint firstItem="u5p-LE-H60" firstAttribute="leading" secondItem="5Dc-hv-3ao" secondAttribute="leading" constant="8" id="ffF-gk-1cu"/>
+                        <constraint firstAttribute="bottom" secondItem="u5p-LE-H60" secondAttribute="bottom" constant="2" id="g75-Y0-WZL"/>
+                        <constraint firstAttribute="trailing" secondItem="8Q7-N3-W3N" secondAttribute="trailing" constant="8" id="lrh-Ax-5q7"/>
+                        <constraint firstItem="8Q7-N3-W3N" firstAttribute="leading" secondItem="5Dc-hv-3ao" secondAttribute="leading" constant="8" id="uz7-vM-XLM"/>
+                        <constraint firstAttribute="trailing" secondItem="u5p-LE-H60" secondAttribute="trailing" constant="8" id="wCZ-5c-AKd"/>
+                        <constraint firstItem="5Ng-uG-wul" firstAttribute="leading" secondItem="5Dc-hv-3ao" secondAttribute="leading" constant="8" id="z1W-4a-H4f"/>
+                    </constraints>
+                    <variation key="default">
+                        <mask key="constraints">
+                            <exclude reference="FZv-8G-cmt"/>
+                        </mask>
+                    </variation>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="6aF-Ls-tul" secondAttribute="bottom" id="5Pq-c1-CzE"/>
+                <constraint firstAttribute="trailing" secondItem="6aF-Ls-tul" secondAttribute="trailing" id="7Z7-qW-TQ4"/>
+                <constraint firstAttribute="trailing" secondItem="5Dc-hv-3ao" secondAttribute="trailing" constant="8" id="QAl-Kx-Rod"/>
+                <constraint firstAttribute="centerX" secondItem="5Dc-hv-3ao" secondAttribute="centerX" id="U9t-av-12Q"/>
+                <constraint firstItem="6aF-Ls-tul" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="WGd-El-wVP"/>
+                <constraint firstItem="5Dc-hv-3ao" firstAttribute="top" secondItem="6aF-Ls-tul" secondAttribute="bottom" id="caY-dU-StY"/>
+                <constraint firstItem="5Dc-hv-3ao" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="8" id="dQ8-f6-dxi"/>
+                <constraint firstAttribute="centerY" secondItem="5Dc-hv-3ao" secondAttribute="centerY" id="dRe-Cw-Aqh"/>
+                <constraint firstItem="6aF-Ls-tul" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="zD8-5q-yIf"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <variation key="default">
+                <mask key="constraints">
+                    <exclude reference="caY-dU-StY"/>
+                </mask>
+            </variation>
+            <connections>
+                <outlet property="alphView" destination="6aF-Ls-tul" id="RDy-vL-x99"/>
+                <outlet property="boxView" destination="5Dc-hv-3ao" id="puq-fQ-F4A"/>
+                <outlet property="messageLB" destination="8Q7-N3-W3N" id="hTS-wt-4Q0"/>
+                <outlet property="sureBTN" destination="u5p-LE-H60" id="QVz-DG-uyj"/>
+            </connections>
+        </view>
+    </objects>
+</document>
